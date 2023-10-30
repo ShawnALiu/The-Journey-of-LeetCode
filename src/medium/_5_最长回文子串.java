@@ -32,7 +32,8 @@ public class _5_最长回文子串 {
                 }
             }
         }
-        // substring(start, end),从下标start开始取到end，但不包含end,即[start, end)
+
+        // substring(start, end),从下标start开始取到下标end，但不包含end,即[start, end)
         return s.substring(start, longest + start);
     }
 }

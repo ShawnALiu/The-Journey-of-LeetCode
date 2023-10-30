@@ -1,6 +1,11 @@
 package util;
 
 /**
+<<<<<<< HEAD
+=======
+ * 链表
+ *
+>>>>>>> bcec54e (leetcode)
  * @author lz
  * @date 2021/07/16 22:52
  **/

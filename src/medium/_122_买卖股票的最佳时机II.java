@@ -22,7 +22,7 @@ public class _122_买卖股票的最佳时机II {
             } else {
                 if (fast + 1 >= len) {
                     maxProfit += Math.max((prices[fast] - prices[slow]), 0);
-                } else if ((prices[fast + 1] - prices[slow]) < (prices[fast] - prices[slow])) {
+                } else if (prices[fast + 1] < prices[fast]) {
                     maxProfit += prices[fast] - prices[slow];
                     slow = fast + 1;
                 }
